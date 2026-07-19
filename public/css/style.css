@@ -1,0 +1,98 @@
+.navbar{
+    height: 5rem;
+    background-color: white;
+}
+.fa-compass{
+    color: brown;
+    font-size: 2 rem;
+}
+.nav-link{
+    color: brown !important;
+}
+.finfo{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 5rem;
+    background-color: #faebd7;
+}
+
+.finfo-socials,
+.finfo-links{
+    width: 100%;
+}
+
+.finfo-links a{
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.finfo-links a:hover{
+    text-decoration: underline;
+}
+
+.finfo-socials i{
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+.card{
+    border: none !important;
+    margin-bottom: 2rem;
+   
+}
+.card-img-top:hover{
+    opacity: 0.8;
+}
+.card-img-top{
+    border-radius: 5rem 5rem 0 0;
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+}
+.card-body{
+    padding: 0.5rem !important;
+}
+
+.listing-link{
+    text-decoration: none;
+    color: inherit;
+}
+.addbtn{
+    background-color: red;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    flex: 1;
+}
+.show-img{
+    height: 30vh;
+}
+.editbtn{
+    background-color: aqua;
+}
+.btnflex{
+    display: flex;
+    
+}
+.footer{
+    height: 5rem;
+    background-color: rgb(32, 16, 16);
+}
+.cardborder{
+    border: 1px solid black;
+}
+ /* MAp */
+
+#map { 
+    height: 400px;
+    width: 100%;
+    border-radius: 10px;
+}

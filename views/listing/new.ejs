@@ -1,0 +1,52 @@
+<% layout("layouts/boilerplates")%>
+<body>
+    <h2>Create New Listing</h2>
+<div class="row">
+<div class="col-8 offset-2">
+    <form method="post" action="/listing" novalidate class="row g-3 needs-validation" enctype="multipart/form-data">
+    <div class="mb-3">
+            <label for="title" class="form-label" >Title</label>
+            <input  name="listing[title]" type="text" class="form-control" required>
+            <div class="valid-feedback" >Good Title</div>
+    </div>
+
+    <div class="mb-3">
+            <label for="descripton" class="form-label" >Description</label>
+              <input  name="listing[description]" 
+              type="text" class="form-control" required>
+              <div class="invalid-feedback" >Provide Description</div>
+    </div>
+    <div class="row">
+           
+                 <div class="mb-3 col-4" >
+                 <label for="Price" class="form-label" >Price</label>
+                 <input  name="listing[price]"  class="form-control" required >
+                <div class="invalid-feedback" >Price shoud be Valid</div>  
+                </div>
+                 <div class="mb-3 col-8" >
+                  <label for="location" class="form-label" >Location</label>
+                 <input  name="listing[location]" type="text" class="form-control" required >
+                <div class="invalid-feedback" >location shoud be Valid</div> 
+                </div>
+           
+                 
+    </div>
+      
+    <div class="mb-3">
+            <label for="country" class="form-label" >country</label>
+              <input  name="listing[country]" type="text" class="form-control" required>
+              <div class="invalid-feedback" >country shoud be Valid</div> 
+            </div>
+    <div class="mb-3">
+            <label for="img" class="form-label" >Upload Image</label>
+              <input name="listing[image]" type="file" class="form-control" required> 
+               
+            </div>
+        <br>
+        <button class="addbtn col-1 offset-5 mb-2 mt-1">add</button>
+    </form>
+</div>
+
+</div>
+</body>
+
